@@ -48,7 +48,7 @@ find -name file_1.txt
 
 16) Просмотреть содержимое в реальном времени
 cd folder_2
-tail -f file_1.txt
+tail -f file_1.txt | grep 333
 
 17) Вывести несколько первых строк из текстового файла
 head -2 file_1.txt
