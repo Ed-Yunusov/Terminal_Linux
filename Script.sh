@@ -1,0 +1,19 @@
+#!/bin/bash
+# create folder
+mkdir folder_1
+# go to folder
+cd folder_1
+# create three folders
+mkdir fold_1 fold_2 fold_3
+# go to any folder
+cd fold_2
+# create five files (3 txt, 2 json)
+touch file_1.txt file_2.txt file_3.txt file_1.json file_2.json
+# create three folders
+mkdir fold_4 fold_5 fold_6
+# list the contents of a folder
+ls -la
+# exit the folder to a higher level
+cd ..
+# move any two files to any other folder
+mv fold_2/{file_1.txt,file_2.txt} fold_3
